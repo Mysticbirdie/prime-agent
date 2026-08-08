@@ -1,0 +1,9 @@
+[project]
+name = "prime-agent-skill-preflight-audit"
+version = "0.1.0"
+description = "Fast regex-based code audit for common AI-generated issues. Advisory only."
+requires-python = ">=3.10"
+dependencies = ["prime-agent-runtime"]
+
+[project.scripts]
+preflight_audit = "rlm.skill:cli"

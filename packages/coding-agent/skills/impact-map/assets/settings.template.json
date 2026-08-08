@@ -1,0 +1,8 @@
+{
+  "skills": ["../.devin/skills"],
+  "autoRefine": {
+    "enabled": true,
+    "turnInterval": 15,
+    "compact": true
+  }
+}

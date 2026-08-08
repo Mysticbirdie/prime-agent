@@ -1,0 +1,9 @@
+[project]
+name = "prime-agent-skill-verify-bar"
+version = "0.1.0"
+description = "Project verification bar — typecheck, build, lint, tests. Blocks on failure."
+requires-python = ">=3.10"
+dependencies = ["prime-agent-runtime"]
+
+[project.scripts]
+verify_bar = "rlm.skill:cli"
